@@ -1,0 +1,93 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 5ch;
+}
+
+.headbtn{
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+    background-color: gainsboro;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -70px;
+    position: relative;
+    overflow: hidden;
+}
+
+.headbtn ul li{
+    margin: 1ch;
+    display: inline-block;
+    text-align: center; 
+    top:0; 
+    
+}
+
+p{
+    font-size: 25px;
+    position: relative;
+    display: inline-flexbox;
+
+}
+
+#meimg{
+    width:250px;
+    border-radius: 50%;
+    vertical-align:middle;
+    margin-left: 5ch;
+    margin-bottom: 8ch;
+    
+}
+
+#intro{
+    font-size: 28px;
+    margin-left: 5ch; 
+    text-align: center; 
+    color: blueviolet;  
+}
+
+#aboutme{
+    background-color: antiquewhite;
+    padding: 15ch;
+    
+}
+
+#work{
+    background-color: gainsboro;
+    padding: 15ch;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+}
+
+#education{
+    background-color: antiquewhite;
+    padding: 15ch;
+    text-align: center;
+}
+
+#skills{
+    background-color: gainsboro;
+    padding: 15ch;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+}
+
+#contact{
+    padding: 50px;
+    text-align: center;
+    
+}
+
+#contact h2{
+    display: inline-block;
+    margin: 4ch;
+    
+}
