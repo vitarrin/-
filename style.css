@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
 }
 
 h1{
@@ -16,16 +16,22 @@ h1{
     background-color: gainsboro;
     margin-left: -10px;
     margin-right: -10px;
-    margin-top: -70px;
+    margin-top: -40px;
     position: relative;
     overflow: hidden;
+    
+}
+
+a:link{ 
+    text-decoration: none;
 }
 
 .headbtn ul li{
-    margin: 1ch;
+    margin: 2ch;
     display: inline-block;
     text-align: center; 
     top:0; 
+    font-family:'Lobster', cursive;
     
 }
 
@@ -49,12 +55,18 @@ p{
     font-size: 28px;
     margin-left: 5ch; 
     text-align: center; 
-    color: blueviolet;  
+    
+    
+}
+
+.about{
+    background-color: white;
 }
 
 #aboutme{
-    background-color: antiquewhite;
-    padding: 15ch;
+    background-color: rgb(255, 255, 255);
+    padding: 3ch;
+    display: inline-flex;
     
 }
 
@@ -67,7 +79,7 @@ p{
 }
 
 #education{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     padding: 15ch;
     text-align: center;
 }
@@ -81,13 +93,13 @@ p{
 }
 
 #contact{
-    padding: 50px;
+    padding: 10px;
     text-align: center;
     
 }
 
 #contact h2{
     display: inline-block;
-    margin: 4ch;
+    margin: 2ch;
     
 }
