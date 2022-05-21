@@ -42,6 +42,17 @@ p{
 
 }
 
+.logoBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.logo{
+    width: 150px;
+    height: 200px;
+}
+
 #meimg{
     width:250px;
     border-radius: 50%;
