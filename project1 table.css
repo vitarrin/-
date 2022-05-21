@@ -1,0 +1,9 @@
+.order{
+    border: 1px;
+    border-radius: 20%;
+    border-color: black;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 50ch 20ch 50ch 20ch;
+    margin: 30ch;
+}
