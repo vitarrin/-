@@ -48,9 +48,14 @@ p{
     justify-content: space-around
 }
 
+.logo_squeeze{
+    width: 100px;
+    height: 150px;
+}
+
 .logo{
     width: 150px;
-    height: 200px;
+    height: 150px;
 }
 
 #meimg{
@@ -59,7 +64,14 @@ p{
     vertical-align:middle;
     margin-left: 5ch;
     margin-bottom: 8ch;
-    
+}
+
+#bouncingObject{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
 }
 
 #intro{
