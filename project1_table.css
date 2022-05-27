@@ -1,0 +1,48 @@
+#menutitle{
+    background-color: rgb(251, 242, 229);
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 35%;
+}
+
+
+.order{
+    border: 1px;
+    border-color: black;
+    background-color: rgb(239, 233, 224);
+    text-align: center;
+    padding: 30px;
+    width: 27%;  
+    margin:30px;
+    border-radius: 10%;
+    align-content: center;
+    margin-left: 35%;
+}
+
+#text{
+    width: 80%;
+    height: 100px;
+    
+}
+
+#submit{
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+}
+
+#select{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+}
+
+.order p{
+    font-size: 18px;
+    
+}
+
+.underline hr{
+    width: 30%;
+}
+

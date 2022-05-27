@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project1_table.css">
+    <title>Table</title>
+    <style>
+        body{
+            background-image: url(img/background.jpg);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="menutitle" style="text-align: center; color: rgb(240, 10, 10); font-size: 50px;">Menu and nutrient </h1>
+    <table border="1" style="text-align:center; margin-left: 20ch; background-color: rgb(247, 242, 236);">
+        <thead>
+            <tr>
+                <th colspan="4" rowspan="2"> </th>
+                <th rowspan="2">NAME</th>
+                <th rowspan="2">IMAGES</th>
+                <th rowspan="2">CALORIES</th>
+                <th colspan="4">FAT(g)</th>
+               
+            </tr>
+         <tr>   
+             <th>SATURATED FAT <br> (g)</th>
+             <th>TRANS FAT <br> (g)</th>
+             <th>POLYUNSATURATED FAT <br> (g)</th>
+             <th>MONOUSATURATED FAT <br> (g)</th>
+         </tr>
+        </thead>
+     <tbody>
+         <tr>
+            <th rowspan="4" colspan="2">BREAKFAST</th>
+            <th rowspan="2" colspan="2">BREAD</th>
+            <th>Gluten-Free Bread</th>
+            <td><img src="img/food1.jpeg" alt="bread" style="width:200px;"></td>
+            <td>134</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>3</td>
+            
+        </tr>
+        <tr>
+            <th>Gluten Free Cinnamon Raisin Bagels</th>
+            <td><img src="img/food2.jpeg" alt="bread1" style="width:200px ;"></td>
+            <td>390</td>
+            <td>1</td>
+            <td>44</td>
+            <td>2</td>
+            <td>12</td>
+            
+        </tr>
+        <tr>
+            <th rowspan="2" colspan="2">DRINKS</th>
+            <th>Chocolate Pumpkin Smoothie</th>
+            <td><img src="img/drink3.jpeg" alt="drink" style="width:200px ;"></td>
+            <td>297</td>
+            <td>3</td>
+            <td>5</td>
+            <td>1</td>
+            <td>2</td>
+            
+        </tr>
+        <tr>
+            <th>Peanut Butter and Jelly Smoothie</th>
+            <td><img src="img/drink4.jpeg" alt="" style="width:200px;"></td>
+            <td>460</td>
+            <td>5</td>
+            <td>4</td>
+            <td>5</td>
+            <td>8</td>
+            
+        </tr>
+        <tr>
+            <th rowspan="4" colspan="2">LUNCH</th>
+            <th rowspan="2" colspan="2">CUISINE</th>
+            <th>Mexican Pasta Salad</th>
+            <td><img src="img/food5.jpeg" alt="" style="width:200px;"></td>
+            <td>248</td>
+            <td>1</td>
+            <td>6</td>
+            <td>1</td>
+            <td>4</td>
+            
+        </tr>
+        <tr>
+            <th>Keto Taco Bowl</th>
+            <td><img src="img/food6.jpeg" alt="" style="width:200px ;"></td>
+            <td>746</td>
+            <td>8</td>
+            <td>2</td>
+            <td>6</td>
+            <td>3</td>
+            
+        </tr>
+        <tr>
+            <th rowspan="2" colspan="2">SANDWICHS</th>
+            <th>Honey BBQ Chicken Salad</th>
+            <td><img src="img/food7.jpeg" alt="" style="width:200px ;"></td>
+            <td>185</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            
+        </tr>
+        <tr>
+            <th>Chef's Salad Lettuce Wraps</th>
+            <td><img src="img/food8.jpeg" alt="" style="width:200px ;"></td>
+            <td>246</td>
+            <td>8</td>
+            <td>2</td>
+            <td>7</td>
+            <td>6</td>
+            
+        </tr>
+     </tbody> 
+    </table>
+
+<!-- ---order----- -->
+<div class="order">
+    <h1 >Order your meal !</h1>
+    <hr>                                                                     
+    <form action=""></form>
+    <p>What do you want to order?</p>
+    <select name="" id="select">
+        <option value="">Select</option>
+        <option value="">Gluten-Free Bread</option>
+        <option value="">Gluten Free Cinnamon Raisin Bagels</option>
+        <option value="">Chocolate Pumpkin Smoothie</option>
+        <option value="">Peanut Butter and Jelly Smoothie</option>
+        <option value="">Mexican Pasta Salad</option>
+        <option value="">Keto Taco Bowl</option>
+        <option value="">Honey BBQ Chicken Salad</option>
+        <option value="">Chef's Salad Lettuce Wraps</option>
+    </select>
+    <div class="underline">
+     <hr>
+     <p>How many?    </p>
+     <input type="text" value="">
+     <hr>
+     <p>Sugar</p>
+     <label for="">0%</label><input type="range"><label for="">100%</label>
+     <hr>
+     <p>Do you need tableware?</p>
+     <input type="checkbox" name="" id=""><label for="">Knife</label><input type="checkbox" name="" id=""><label for="">Chopsticks</label><input type="checkbox"><label for="">Fork</label>
+     <hr>
+     <p>Do you need ice for drinks?</p>
+     <input type="radio" ><label for="">Yes</label><input type="radio" ><label for="">No</label>
+     <hr>
+     <p>What else do you need?</p>
+     <input type="text" id="text">
+     <hr>
+     <p>Contact Tel   <input type="text"></p>
+     <hr>
+     <input type="submit" value="Submit" id="submit">
+    </div>
+</div>
+
+    
+</body>
+</html>
